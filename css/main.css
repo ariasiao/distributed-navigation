@@ -48,10 +48,15 @@ nav ul {
   font-weight: lighter;
 }
 
-nav a {
+nav a, nav a:visited {
   font-size: 1rem;
   color: #0074d9;
   text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+  background-color: #0074d9;
+  color: #fff;
 }
 
 li {
